@@ -9,29 +9,14 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  StyleSheet,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  DebugInstructions,
-  Header,
-  LearnMoreLinks,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
-
+import {SafeAreaView, Text, View} from 'react-native';
+import Icon from 'react-native-vector-icons/FontAwesome';
 const App = () => {
   return (
     <SafeAreaView style={{justifyContent: 'center'}}>
       <View style={{alignItems: 'center'}}>
         <Text>Instagram</Text>
+        <Icon name="rocket" size={30} color="#900" />
       </View>
     </SafeAreaView>
   );
